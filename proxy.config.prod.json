@@ -1,0 +1,12 @@
+{
+  "/api/*": {
+    "target": "https://stage.diezlegal.com/",
+    "secure": false
+  },
+  "/uploads/*": {
+    "target": "https://stage.diezlegal.com/uploads/",
+    "secure": true,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}

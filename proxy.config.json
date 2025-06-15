@@ -1,0 +1,24 @@
+{
+  "/api/*": {
+    "target": "http://localhost:8000/",
+    "secure": false
+  },
+  "/uploads/*": {
+    "target": "http://localhost:8080/uploads/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/constant/*": {
+    "target": "http://localhost:8080/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/resolve/*": {
+    "target": "https://portal.seguridata.com/",
+    "secure": true,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
